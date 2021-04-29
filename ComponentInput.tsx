@@ -1,3 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export default ({clase, tipo, valor}) => <input class={clase} type={tipo} value={valor}/>;
+export default ({ clase, tipo, valor }) => (
+  <input className={clase} type={tipo} value={valor} />
+);

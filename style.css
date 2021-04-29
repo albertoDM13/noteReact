@@ -21,7 +21,7 @@
     height: 100%;
   }
 
-  /* ################## Estilos Caja ####################### */
+  /* ######################### Estilos Caja ####################### */
   .cajaWriter {
     width: 100%;
     height: 8em;
@@ -36,11 +36,18 @@
     display: inline-block;
   }
 
-  /* ################## Estilos Button ####################### */
+  /* ################## Estilos Input-Button ####################### */
 
   .Button {
     height: 100%;
     width: 30%;
     margin-left: 5px;
+  }
+
+  /* ################## Estilos Input-text ####################### */
+
+  .input-text {
+    borde: 0px;
+    outline: none;
   }
 }
