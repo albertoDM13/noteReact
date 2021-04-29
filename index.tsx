@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
-import Button from './Button';
-import InputText from './InputText';
+import ComponentInput from './ComponentInput';
 import './style.css';
 
 interface AppProps { }
@@ -28,11 +27,11 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <div class="cajaWriter" id="CWriter">
-          <InputText value={this.state.placeholder}/>
+          <ComponentInput value={this.state.placeholder}/>
         </div>
         <div class="cajaDow" id="CButton">
-          <Button value={this.state.titleButtonAdd}/>
-          <Button value={this.state.titleButtonCan}/>
+          <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonAdd}/>
+          <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonCan}/>
         </div>
       </div>
     );
