@@ -30,8 +30,12 @@ class App extends Component<AppProps, AppState> {
           <ComponentInput value={this.state.placeholder}/>
         </div>
         <div class="cajaDow" id="CButton">
-          <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonAdd}/>
-          <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonCan}/>
+          <div class={"LTR"} ></div>
+            <div class="box-button">
+              <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonAdd}/>
+              <ComponentInput clase={'Button'} tipo={'Button'} valor={this.state.titleButtonCan}/>
+            </div>
+          <div class="LTR" ></div>
         </div>
       </div>
     );
