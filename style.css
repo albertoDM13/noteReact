@@ -36,6 +36,16 @@
     display: inline-block;
   }
 
+  .LTR {
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+  }
+
+  .box-button {
+  }
+
   /* ################## Estilos Input-Button ####################### */
 
   .Button {

@@ -27,7 +27,7 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <div className="cajaWriter" id="CWriter">
-          <ComponentInput clase={"input-text"} tipo={"text"} />
+          <ComponentInput clase={"input-text"} tipo={"text"} hint={'Escribe tu texto'}/>
         </div>
         <div className="cajaDow" id="CButton">
           <div className={"LTR"}></div>
