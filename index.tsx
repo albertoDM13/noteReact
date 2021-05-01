@@ -9,8 +9,7 @@ interface AppState {
   name: string;
   titleButtonAdd: String;
   titleButtonCan: String;
-  placeholder: String;
-}
+  placeholder: String;}
 
 class App extends Component<AppProps, AppState> {
   constructor(props) {
