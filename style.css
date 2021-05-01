@@ -2,19 +2,20 @@
   margin: 0px;
   padding: 0px;
 }
-
+/*
 #root {
   width: 500px;
   height: 500px;
   background-color: aqua;
-}
+} */
 
 @media (min-width: 500px) {
+  /*
   #root {
     width: 593px;
     height: 810px;
-    background-color: rgba(194, 211, 231, 0.37);
-  }
+    background-color: rgba(60, 180, 70, 0.37);
+  }*/
 
   #input {
     width: 100%;
@@ -22,6 +23,12 @@
   }
 
   /* ######################### Estilos Caja ####################### */
+
+  .body {
+    width: 593px;
+    height: 810px;
+    background-color: rgba(18, 119, 235, 0.37);
+  }
 
   .cajaWriter {
     width: 100%;
@@ -59,6 +66,11 @@
     padding: 0px;
   }
 
+  .box-comment {
+    background-color: blueviolet;
+    height: 80%;
+    width: 100%;
+  }
   /* ################## Estilos Input-Button ####################### */
 
   .Button {

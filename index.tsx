@@ -26,26 +26,29 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        <div className="cajaWriter" id="CWriter">
-          <ComponentInput clase={"input-text"} tipo={"text"} hint={'Escribe tu texto'}/>
-        </div>
-        <div className="cajaDow" id="CButton">
-          <div className={"LTR"}></div>
-          <div className="box-button">
-            <ComponentInput
-              clase={"Button"}
-              tipo={"Button"}
-              valor={this.state.titleButtonAdd}
-            />
-            <ComponentInput
-              clase={"Button"}
-              tipo={"Button"}
-              valor={this.state.titleButtonCan}
-            />
+        <div class="body">
+          <div id="boxComment" class="box-comment">
           </div>
-          <div className="LTR"></div>
+
+          <div className="cajaWriter" id="CWriter">
+            <ComponentInput clase={"input-text"} tipo={"text"} hint={'Escribe tu texto'}/>
+          </div>
+          <div className="cajaDow" id="CButton">
+              <div className={"LTR"}></div>
+                <div className="box-button">
+                    <ComponentInput
+                      clase={"Button"}
+                      tipo={"Button"}
+                      valor={this.state.titleButtonAdd}/>
+                    <ComponentInput
+                      clase={"Button"}
+                      tipo={"Button"}
+                      valor={this.state.titleButtonCan}/>
+                </div>
+              <div className="LTR"></div>
+          </div>
         </div>
-      </div>
+      </div>//  class .body
     );
   }
 }
