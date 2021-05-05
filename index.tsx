@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import Hello from "./Hello";
 import ComponentInput from "./ComponentInput";
+import ComponentTextarea from "./ComponentTextarea";
 import "./style.css";
 
 interface AppProps {}
@@ -30,7 +31,10 @@ class App extends Component<AppProps, AppState> {
           </div>
 
           <div className="cajaWriter" id="CWriter">
-            <ComponentInput clase={"input-text"} tipo={"text"} hint={'Escribe tu texto'}/>
+            <ComponentTextarea 
+              code={'comment-box-writer'}
+              clase={'writer-box-component'}
+              info={'Escribe tu Comentario'}/>
           </div>
           <div className="cajaDow" id="CButton">
               <div className={"LTR"}></div>

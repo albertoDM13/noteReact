@@ -86,4 +86,12 @@
     borde: 0px;
     outline: none;
   }
+
+  /* #################### Estilos Textarea ####################### */
+  .writer-box-component {
+    height: 90%;
+    width: 100%;
+    outline: none;
+    display: inline;
+  }
 }
