@@ -23,6 +23,10 @@ class App extends Component<AppProps, AppState> {
     };
   }
 
+  readComment(){
+    alert('holi')
+  }
+
   render() {
     return (
       <div>
@@ -42,7 +46,8 @@ class App extends Component<AppProps, AppState> {
                     <ComponentInput
                       clase={"Button"}
                       tipo={"Button"}
-                      valor={this.state.titleButtonAdd}/>
+                      valor={this.state.titleButtonAdd}
+                      funcion={this.readComment}/>
                     <ComponentInput
                       clase={"Button"}
                       tipo={"Button"}
