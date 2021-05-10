@@ -2,21 +2,8 @@
   margin: 0px;
   padding: 0px;
 }
-/*
-#root {
-  width: 500px;
-  height: 500px;
-  background-color: aqua;
-} */
 
 @media (min-width: 500px) {
-  /*
-  #root {
-    width: 593px;
-    height: 810px;
-    background-color: rgba(60, 180, 70, 0.37);
-  }*/
-
   #input {
     width: 100%;
     height: 100%;
@@ -82,16 +69,12 @@
 
   /* ################## Estilos Input-text ####################### */
 
-  .input-text {
-    borde: 0px;
-    outline: none;
-  }
-
   /* #################### Estilos Textarea ####################### */
   .writer-box-component {
-    height: 90%;
+    height: 100%;
     width: 100%;
     outline: none;
-    display: inline;
+    resize: none;
+    border: none;
   }
 }

@@ -51,7 +51,7 @@ class App extends Component<AppProps, AppState> {
               <div className="LTR"></div>
           </div>
         </div>
-      </div>//  class .body
+      </div>
     );
   }
 }
