@@ -19,12 +19,13 @@ class App extends Component<AppProps, AppState> {
       name: "Delete",
       titleButtonAdd: "Agregar",
       titleButtonCan: "Cancelar",
-      placeholder: "Escribe Nota"
+      placeholder: "Escribe Nota",
+      msg: ""
     };
   }
 
   readComment(){
-    alert('holi')
+    alert(document.getElementById('comment-box-writer').value)
   }
 
   render() {
@@ -35,7 +36,7 @@ class App extends Component<AppProps, AppState> {
           </div>
 
           <div className="cajaWriter" id="CWriter">
-            <ComponentTextarea 
+            <ComponentTextarea
               code={'comment-box-writer'}
               clase={'writer-box-component'}
               info={'Escribe tu Comentario'}/>
