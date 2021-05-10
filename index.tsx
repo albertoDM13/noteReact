@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import ComponentInput from "./ComponentInput";
 import ComponentTextarea from "./ComponentTextarea";
+import ComponentRegis from "./ComponentRegis";
 import "./style.css";
 
 interface AppProps {}
@@ -33,6 +34,7 @@ class App extends Component<AppProps, AppState> {
       <div>
         <div class="body">
           <div id="boxComment" class="box-comment">
+              <ComponentRegis clase={'Component-Regis'}/>
           </div>
 
           <div className="cajaWriter" id="CWriter">

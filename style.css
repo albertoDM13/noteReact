@@ -47,7 +47,6 @@
     background-color: cadetblue;
     height: 100%;
     width: 60%;
-    display: ;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -57,6 +56,7 @@
     background-color: blueviolet;
     height: 79%;
     width: 100%;
+    text-align: center;
   }
   /* ################## Estilos Input-Button ####################### */
 
@@ -78,5 +78,15 @@
     outline: none;
     resize: none;
     border: none;
+  }
+
+  /* ################## Estilos Registro ####################### */
+
+  .Component-Regis {
+    background-color: blanchedalmond;
+    height: 5%;
+    width: 95%;
+    border-radius: 5px;
+    margin: auto;
   }
 }
