@@ -27,6 +27,7 @@ class App extends Component<AppProps, AppState> {
 
   readComment(){
     alert(document.getElementById('comment-box-writer').value)
+    
   }
 
   render() {
@@ -34,7 +35,9 @@ class App extends Component<AppProps, AppState> {
       <div>
         <div class="body">
           <div id="boxComment" class="box-comment">
-              <ComponentRegis clase={'Component-Regis'}/>
+            <ComponentRegis clase={'Component-Regis'} value={this.state.msg}/>
+            <ComponentRegis clase={'Component-Regis'} />
+            <ComponentRegis clase={'Component-Regis'} />
           </div>
 
           <div className="cajaWriter" id="CWriter">

@@ -1,5 +1,5 @@
 import React from 'react'
 
-export default ({clase}) => (
-    <div className={clase}></div>
+export default ({clase, value}) => (
+      <div className={clase}>{value}</div>
 );
