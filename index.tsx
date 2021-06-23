@@ -34,7 +34,7 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <div class="body">
-          <div id="boxComment" class="box-comment">
+          <div id="boxComment" class="boxComment">
             <ComponentRegis clase={'Component-Regis'} value={this.state.msg} />
             <ComponentRegis clase={'Component-Regis'} />
             <ComponentRegis clase={'Component-Regis'} />

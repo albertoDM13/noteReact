@@ -97,8 +97,15 @@
     background-color: rgb(29, 65, 53);
   }
 
+  /*   box-Comment  */
+  .boxComment {
+    background-color: rgba(250, 235, 215, 0.103);
+    width: 100vw;
+    height: 80vh;
+  }
+
   /*   box-writer   */
-  .box-comment {
+  .boxWriter {
     background-color: blueviolet;
     width: 100vw;
     height: 25vh;
