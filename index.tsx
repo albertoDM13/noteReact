@@ -32,38 +32,14 @@ class App extends Component<AppProps, AppState> {
 
   render() {
     return (
-      <div>
-        <div class="body">
-          <div id="boxComment" class="boxComment">
-            <ComponentRegis clase={'Component-Regis'} value={this.state.msg} />
-            <ComponentRegis clase={'Component-Regis'} />
-            <ComponentRegis clase={'Component-Regis'} />
-          </div>
+      <div class="doby">
+        <div id="boxComment" class="boxComment" />
 
-          <div className="boxWriter" id="CWriter">
-            <ComponentTextarea
-              code={'comment-box-writer'}
-              clase={'writer-box-component'}
-              info={'Escribe tu Comentario'}
-            />
-          </div>
-          <div className="boxButton" id="CButton">
-            <div className={'LTR'} />
-            <div className="box-button">
-              <ComponentInput
-                clase={'Button'}
-                tipo={'Button'}
-                valor={this.state.titleButtonAdd}
-                funcion={this.readComment}
-              />
-              <ComponentInput
-                clase={'Button'}
-                tipo={'Button'}
-                valor={this.state.titleButtonCan}
-              />
-            </div>
-            <div className="LTR" />
-          </div>
+        <div className="boxWriter" id="CWriter" />
+        <div className="boxButton" id="CButton">
+          <div className={'LTR'} />
+          <div className="box-button" />
+          <div className="LTR" />
         </div>
       </div>
     );

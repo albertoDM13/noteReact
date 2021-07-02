@@ -94,26 +94,54 @@
 
 @media (min-width: 1200px) {
   body {
-    background-color: rgb(29, 65, 53);
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .doby {
+    background-color: rgb(12, 248, 170);
+    width: 100vw;
+    height: 100vh;
   }
 
   /*   box-Comment  */
   .boxComment {
-    background-color: rgba(250, 235, 215, 0.103);
+    background-color: rgba(228, 135, 13, 0.377);
     width: 100vw;
-    height: 80vh;
+    height: 75%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
   }
 
   /*   box-writer   */
   .boxWriter {
-    background-color: blueviolet;
-    width: 100vw;
+    background-color: rgba(137, 43, 226, 0);
+    width: 79vw;
     height: 25vh;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
   }
 
   /*    TextArea    */
+  .writer-box-component {
+    width: 65vw;
+    height: 24.4vh;
+  }
 
   /*   box-button   */
+  .boxButton {
+    background-color: rgba(0, 255, 255, 0);
+    width: 20vw;
+    height: 25vh;
+    display: inline-block;
+    float: left;
+  }
 
   /*     Button     */
+  .Button {
+    width: 60%;
+    height: 30px;
+    display: block;
+  }
 }
