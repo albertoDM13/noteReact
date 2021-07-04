@@ -116,7 +116,7 @@
   /*   box-writer   */
   .boxWriter {
     background-color: rgba(137, 43, 226, 0);
-    width: 79vw;
+    width: 80vw;
     height: 25vh;
     display: inline-block;
     margin: 0px;
@@ -125,8 +125,18 @@
 
   /*    TextArea    */
   .writer-box-component {
-    width: 65vw;
-    height: 24.4vh;
+    width: 99.9%;
+    height: 99%;
+    font-size: 200%;
+    border: none;
+    outline: 0;
+    resize: none;
+    background-color: transparent;
+    text-align: center;
+  }
+
+  .writer-box-component :hover {
+    background-color: azure;
   }
 
   /*   box-button   */

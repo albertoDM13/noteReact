@@ -34,12 +34,15 @@ class App extends Component<AppProps, AppState> {
     return (
       <div class="doby">
         <div id="boxComment" class="boxComment" />
+        <div class="boxDown">
+          <div className="boxWriter" id="CWriter">
+            <ComponentTextarea
+              clase="writer-box-component"
+              info="Escribe tu Comentario..."
+            />
+          </div>
 
-        <div className="boxWriter" id="CWriter" />
-        <div className="boxButton" id="CButton">
-          <div className={'LTR'} />
-          <div className="box-button" />
-          <div className="LTR" />
+          <div className="boxButton" id="CButton" />
         </div>
       </div>
     );
